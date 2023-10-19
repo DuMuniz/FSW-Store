@@ -12,8 +12,8 @@ import { Button } from "./button";
 import { Card } from "./card";
 import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./sheet";
 import { signIn, signOut, useSession } from "next-auth/react";
-import { Avatar, AvatarFallback } from "@radix-ui/react-avatar";
-import { AvatarImage } from "./avatar";
+import { AvatarFallback } from "@radix-ui/react-avatar";
+import { Avatar, AvatarImage } from "./avatar";
 import { Separator } from "@radix-ui/react-separator";
 
 const Header = () => {
